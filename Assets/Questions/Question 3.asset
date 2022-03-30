@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef1452e212315418bb8623068b8ee16e, type: 3}
   m_Name: Question 3
   m_EditorClassIdentifier: 
-  question: Enter new question text here
+  question: Who was the most popular singer/group of 1995?
+  answers:
+  - TLC
+  - Hootie & The Blowfish
+  - Madonna
+  - Boyz II Men
+  correctAnswerIndex: 1

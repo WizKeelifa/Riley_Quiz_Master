@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef1452e212315418bb8623068b8ee16e, type: 3}
   m_Name: Question 2
   m_EditorClassIdentifier: 
-  question: Enter new question text here
+  question: When was the lightbulb created?
+  answers:
+  - 1824
+  - 1792
+  - 1748
+  - 1806
+  correctAnswerIndex: 4
