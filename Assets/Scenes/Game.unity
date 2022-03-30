@@ -135,8 +135,9 @@ GameObject:
   - component: {fileID: 42284607}
   - component: {fileID: 42284606}
   - component: {fileID: 42284605}
+  - component: {fileID: 42284609}
   m_Layer: 5
-  m_Name: Quiz Canvas
+  m_Name: QuizCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -225,6 +226,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &42284609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42284604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a93a144ace0e4f78a2fe9202fec472c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 743699571}
+  question: {fileID: 11400000, guid: a5d651532b00c4e93b55ae213ebf8437, type: 2}
 --- !u!1001 &85361516
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -234,7 +249,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4478275817254143854, guid: 43553f096248c4fc9a3669070df72f39, type: 3}
       propertyPath: m_Name
-      value: Button (1)
+      value: AnswerButton (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7169060496391199549, guid: 43553f096248c4fc9a3669070df72f39, type: 3}
       propertyPath: m_Pivot.x
@@ -336,7 +351,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4478275817254143854, guid: 43553f096248c4fc9a3669070df72f39, type: 3}
       propertyPath: m_Name
-      value: Button (2)
+      value: AnswerButton (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7169060496391199549, guid: 43553f096248c4fc9a3669070df72f39, type: 3}
       propertyPath: m_Pivot.x
@@ -442,7 +457,7 @@ GameObject:
   - component: {fileID: 476465890}
   - component: {fileID: 476465889}
   m_Layer: 5
-  m_Name: Background Canvas
+  m_Name: BackgroundCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -619,7 +634,7 @@ GameObject:
   - component: {fileID: 743699572}
   - component: {fileID: 743699571}
   m_Layer: 5
-  m_Name: Question Text
+  m_Name: QuestionText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -839,7 +854,7 @@ GameObject:
   - component: {fileID: 1260624177}
   - component: {fileID: 1260624176}
   m_Layer: 5
-  m_Name: Previsualization Canvas
+  m_Name: PrevisualizationCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1079,7 +1094,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4478275817254143854, guid: 43553f096248c4fc9a3669070df72f39, type: 3}
       propertyPath: m_Name
-      value: Button (3)
+      value: AnswerButton (3)
       objectReference: {fileID: 0}
     - target: {fileID: 7169060496391199549, guid: 43553f096248c4fc9a3669070df72f39, type: 3}
       propertyPath: m_Pivot.x
@@ -1383,7 +1398,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4478275817254143854, guid: 43553f096248c4fc9a3669070df72f39, type: 3}
       propertyPath: m_Name
-      value: Button
+      value: AnswerButton (0)
       objectReference: {fileID: 0}
     - target: {fileID: 7169060496391199549, guid: 43553f096248c4fc9a3669070df72f39, type: 3}
       propertyPath: m_Pivot.x
