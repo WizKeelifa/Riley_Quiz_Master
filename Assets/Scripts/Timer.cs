@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Timer : MonoBehaviour
 {
     [SerializeField] float timeToComepleteQuestion = 30f;
     [SerializeField] float timeToShowCorrectAnswer = 10f;
 
     public bool loadNextQuestion;
     public float fillFraction;
-
-    bool isAnsweringQuestion;
+    public bool isAnsweringQuestion;
+    
     float timerValue;
 
     void Update()
